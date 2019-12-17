@@ -6,4 +6,5 @@ dobrze było by przy tym wymyślić strukturę generowania podstron na podstawie
 
 Nie mam pojęcia jak trzeba by ten blog hostingować, moze jakis docker (o ile dobrze rozumiem działanie) 
 ogólnie => dodanie artykułu => update porjektu gdzieś na hostingu => gotowe
+ https://www.youtube.com/watch?v=P4ZC3cFN0WQ 
 
