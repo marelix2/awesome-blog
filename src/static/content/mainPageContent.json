@@ -2,6 +2,12 @@
   {
   "id":"1",
   "title":"article",
-  "src":"article.txt"
-  }
+  "src":"article"
+  },
+  {
+    "id":"2",
+    "title":"article2",
+    "src":"article2"
+    }
 ]
+
