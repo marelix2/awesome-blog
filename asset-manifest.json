@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/awesome-blog/static/css/main.44fb2839.chunk.css",
-    "main.js": "/awesome-blog/static/js/main.07230b59.chunk.js",
-    "main.js.map": "/awesome-blog/static/js/main.07230b59.chunk.js.map",
+    "main.js": "/awesome-blog/static/js/main.97600e62.chunk.js",
+    "main.js.map": "/awesome-blog/static/js/main.97600e62.chunk.js.map",
     "runtime-main.js": "/awesome-blog/static/js/runtime-main.f7c5df67.js",
     "runtime-main.js.map": "/awesome-blog/static/js/runtime-main.f7c5df67.js.map",
     "static/js/2.d8035eb9.chunk.js": "/awesome-blog/static/js/2.d8035eb9.chunk.js",
     "static/js/2.d8035eb9.chunk.js.map": "/awesome-blog/static/js/2.d8035eb9.chunk.js.map",
     "index.html": "/awesome-blog/index.html",
-    "precache-manifest.c1a20cf7df27e319b5e1b195ea870e9e.js": "/awesome-blog/precache-manifest.c1a20cf7df27e319b5e1b195ea870e9e.js",
+    "precache-manifest.44c3d404b8140d13d54399d42ecc5d86.js": "/awesome-blog/precache-manifest.44c3d404b8140d13d54399d42ecc5d86.js",
     "service-worker.js": "/awesome-blog/service-worker.js",
     "static/css/main.44fb2839.chunk.css.map": "/awesome-blog/static/css/main.44fb2839.chunk.css.map",
     "static/js/2.d8035eb9.chunk.js.LICENSE": "/awesome-blog/static/js/2.d8035eb9.chunk.js.LICENSE",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.f7c5df67.js",
     "static/js/2.d8035eb9.chunk.js",
     "static/css/main.44fb2839.chunk.css",
-    "static/js/main.07230b59.chunk.js"
+    "static/js/main.97600e62.chunk.js"
   ]
 }
