@@ -1,4 +1,4 @@
-# artykuł 1
+# Artykuł 1
 
 Changes are automatically rendered as you type.
 
@@ -25,3 +25,21 @@ React.render(
   document.getElementById('content')
 );
 ```
+
+Pretty neat, eh?
+
+## Tables?
+
+| Feature   | Support |
+| --------- | ------- |
+| tables    | ✔ |
+| alignment | ✔ |
+| wewt      | ✔ |
+
+## More info?
+
+Read usage information and more on [GitHub](//github.com/rexxars/react-markdown)
+
+---------------
+
+A component by [Espen Hovlandsdal](https://espen.codes/)

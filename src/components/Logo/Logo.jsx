@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../static/png/logo.png'
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import { HOME } from './../../static/routes/public'
 import { makeStyles } from '@material-ui/core/styles'
 

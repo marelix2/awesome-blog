@@ -2,13 +2,20 @@ import React from 'react'
 import { getProperPath } from './utils'
 import moment from 'moment'
 import { makeStyles } from '@material-ui/core/styles'
+import { Link } from 'react-router-dom'
 const reqSvgs = require.context('./../../static/svg/', true, /\.svg$/)
 
 const useStyles = makeStyles((theme) => {
-  const fontStyles = { textTransform: 'capitalize', fontFamily: `'Open Sans', sans-serif` }
+  const fontStyles = {
+    '&::first-letter': {
+      textTransform: 'capitalize',
+    },
+    fontFamily: `'Open Sans', sans-serif`
+  }
+
   return ({
     wrapper: {
-      width: '50vw',
+      width: '60vw',
       height: 300,
       border: '30px solid black',
       display: 'flex',
@@ -66,23 +73,26 @@ const Tile = ({
   iconSrc = 'default',
   title,
   description,
-  date
+  date,
+  src
 }) => {
   const imagePath = getProperPath(reqSvgs.keys(), iconSrc)
   const classes = useStyles()
 
   return (
-    <div className={classes.wrapper}>
-      <img
-        src={reqSvgs(imagePath)}
-        className={classes.icon}
-        alt={title} />
-      <section className={classes.section}>
-        <h2 className={classes.header}>{title}</h2>
-        <p className={classes.date}>{moment(date).format('MMM Do YYYY')}</p>
-        <p className={classes.description}> {description}</p>
-      </section>
-    </div>
+    <Link to={{pathname: src, state: {src}}}>
+      <div className={classes.wrapper}>
+        <img
+          src={reqSvgs(imagePath)}
+          className={classes.icon}
+          alt={title} />
+        <section className={classes.section}>
+          <h2 className={classes.header}>{title}</h2>
+          <p className={classes.date}>{moment(date).format('MMM Do YYYY')}</p>
+          <p className={classes.description}> {description}</p>
+        </section>
+      </div>
+    </Link>
   );
 };
 
