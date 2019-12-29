@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/awesome-blog/static/css/main.44fb2839.chunk.css",
-    "main.js": "/awesome-blog/static/js/main.ea3f35dc.chunk.js",
-    "main.js.map": "/awesome-blog/static/js/main.ea3f35dc.chunk.js.map",
+    "main.css": "/awesome-blog/static/css/main.eebbdf69.chunk.css",
+    "main.js": "/awesome-blog/static/js/main.3c5c28c7.chunk.js",
+    "main.js.map": "/awesome-blog/static/js/main.3c5c28c7.chunk.js.map",
     "runtime-main.js": "/awesome-blog/static/js/runtime-main.f7c5df67.js",
     "runtime-main.js.map": "/awesome-blog/static/js/runtime-main.f7c5df67.js.map",
-    "static/js/2.3981e15c.chunk.js": "/awesome-blog/static/js/2.3981e15c.chunk.js",
-    "static/js/2.3981e15c.chunk.js.map": "/awesome-blog/static/js/2.3981e15c.chunk.js.map",
+    "static/js/2.05b2e841.chunk.js": "/awesome-blog/static/js/2.05b2e841.chunk.js",
+    "static/js/2.05b2e841.chunk.js.map": "/awesome-blog/static/js/2.05b2e841.chunk.js.map",
     "index.html": "/awesome-blog/index.html",
-    "precache-manifest.18e8e9efcdaa8e82179630205eb916d2.js": "/awesome-blog/precache-manifest.18e8e9efcdaa8e82179630205eb916d2.js",
+    "precache-manifest.0db0d0068ff4fc4988dd9679ca7576fb.js": "/awesome-blog/precache-manifest.0db0d0068ff4fc4988dd9679ca7576fb.js",
     "service-worker.js": "/awesome-blog/service-worker.js",
-    "static/css/main.44fb2839.chunk.css.map": "/awesome-blog/static/css/main.44fb2839.chunk.css.map",
-    "static/js/2.3981e15c.chunk.js.LICENSE": "/awesome-blog/static/js/2.3981e15c.chunk.js.LICENSE",
+    "static/css/main.eebbdf69.chunk.css.map": "/awesome-blog/static/css/main.eebbdf69.chunk.css.map",
+    "static/js/2.05b2e841.chunk.js.LICENSE": "/awesome-blog/static/js/2.05b2e841.chunk.js.LICENSE",
     "static/media/article.md": "/awesome-blog/static/media/article.01becbaf.md",
     "static/media/article2.md": "/awesome-blog/static/media/article2.20ffdc9d.md",
     "static/media/article3.md": "/awesome-blog/static/media/article3.680ee265.md",
     "static/media/article4.md": "/awesome-blog/static/media/article4.5de089a2.md",
     "static/media/default.svg": "/awesome-blog/static/media/default.a868f3cb.svg",
     "static/media/js-icon.svg": "/awesome-blog/static/media/js-icon.bb824348.svg",
+    "static/media/logo-black.svg": "/awesome-blog/static/media/logo-black.73f1e41e.svg",
+    "static/media/logo-default.svg": "/awesome-blog/static/media/logo-default.52c3ef9e.svg",
     "static/media/markdown-icon.svg": "/awesome-blog/static/media/markdown-icon.9d9ec1b8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f7c5df67.js",
-    "static/js/2.3981e15c.chunk.js",
-    "static/css/main.44fb2839.chunk.css",
-    "static/js/main.ea3f35dc.chunk.js"
+    "static/js/2.05b2e841.chunk.js",
+    "static/css/main.eebbdf69.chunk.css",
+    "static/js/main.3c5c28c7.chunk.js"
   ]
 }
