@@ -7,8 +7,11 @@ import ArticlePage from './../ArticlePage/ArticlePage'
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom"
+
+import {HOME, ARTICLE} from './../../static/routes/public'
 
 
 const MainPage = () => (
@@ -32,10 +35,11 @@ const MainPage = () => (
         </Grid>
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path={HOME}>
             <ArticleColumn articles={content} />
           </Route>
-          <Route path='/:article' component={ArticlePage} />
+          <Route path={ARTICLE} component={ArticlePage} />
+          <Redirect from="/" to={HOME} />
         </Switch>
       </Grid>
     </Router>

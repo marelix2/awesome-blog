@@ -80,7 +80,7 @@ const Tile = ({
   const classes = useStyles()
 
   return (
-    <Link to={{pathname: src, state: {src}}}>
+    <Link to={{pathname: `/article/${src}`, state: {src}}}>
       <div className={classes.wrapper}>
         <img
           src={reqSvgs(imagePath)}

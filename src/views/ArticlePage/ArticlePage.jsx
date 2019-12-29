@@ -31,7 +31,8 @@ const ArticlePage = ({ location }) => {
   const [source, setSource] = useState('')
   useEffect(() => {
     getArticle(location.state.src, setSource)
-  }, [location.state.src])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const classes = useStyles()
 
