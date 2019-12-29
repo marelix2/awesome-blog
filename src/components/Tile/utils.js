@@ -1,0 +1,1 @@
+export const getProperPath = (paths, src) => paths.find((el) => el === `./${src}.svg`) || './defualt.svg'
