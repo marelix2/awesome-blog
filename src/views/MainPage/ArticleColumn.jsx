@@ -1,20 +1,37 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid'
-import ArticlePage from '../ArticlePage/ArticlePage'
+import Tile from './../../components/Tile/Tile'
+import { makeStyles } from '@material-ui/core/styles'
+
+const useStyles = makeStyles(() => ({
+  item: {
+    marginBottom: 16
+  }
+})
+)
 
 const ArticleColumn = ({ articles }) => {
+  const classes = useStyles()
   return (
     <Grid
       container
-      direction="column-reverse"
+      direction='column-reverse'
       justify="space-around"
       alignItems="center"
-      xs={5}
     >
-      {articles.map(article => (
-      <Grid item style={{ marginBottom: '16px' }}>
-        <ArticlePage source={article} />
-      </Grid>))}
+      {articles.map(({ iconSrc, id, title, description, date}) => (
+        <Grid
+          item
+          key={id}
+          className={classes.item}
+        >
+          <Tile 
+          iconSrc={iconSrc} 
+          title={title}
+          description={description}
+          date={date}
+          />
+        </Grid>))}
     </Grid>
   );
 };
