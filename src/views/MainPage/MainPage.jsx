@@ -3,9 +3,13 @@ import content from '../../static/content/mainPageContent.json'
 import Logo from '../../components/Logo/Logo'
 import Grid from '@material-ui/core/Grid'
 import ArticleColumn from './ArticleColumn'
+import ArticlePage from './../ArticlePage/ArticlePage'
 import {
   BrowserRouter as Router,
+  Switch,
+  Route
 } from "react-router-dom"
+
 
 const MainPage = () => (
   <>
@@ -26,7 +30,13 @@ const MainPage = () => (
         >
           <Logo />
         </Grid>
-        <ArticleColumn articles={content} />
+
+        <Switch>
+          <Route exact path="/">
+            <ArticleColumn articles={content} />
+          </Route>
+          <Route path='/:article' component={ArticlePage} />
+        </Switch>
       </Grid>
     </Router>
   </>

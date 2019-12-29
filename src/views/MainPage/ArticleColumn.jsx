@@ -19,7 +19,7 @@ const ArticleColumn = ({ articles }) => {
       justify="space-around"
       alignItems="center"
     >
-      {articles.map(({ iconSrc, id, title, description, date}) => (
+      {articles.map(({ iconSrc, id, title, description, date, src}) => (
         <Grid
           item
           key={id}
@@ -30,6 +30,7 @@ const ArticleColumn = ({ articles }) => {
           title={title}
           description={description}
           date={date}
+          src={src}
           />
         </Grid>))}
     </Grid>
